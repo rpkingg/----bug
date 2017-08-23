@@ -1,0 +1,200 @@
+html {
+	font-size: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: "HiraginoSansGB-W3", "AdobeHeitiStd-Regular";
+	margin: 0;
+	padding: 0;
+	background-color: #EFEFEF;
+	overflow-x: hidden;
+}
+
+/*距离*/
+.margin_top_six {
+	padding-top: 0.21333333rem;
+}
+.margin_top_zero_three_rem{
+	margin-top: 0.3rem;
+}
+
+/*颜色*/
+.background_color_FF{
+	background: #FFFFFF;
+}
+.background_color_FA{
+	background: #FAFAFA;
+}
+.font_color_red{
+	color: #FF5959;
+}
+.font_color_black{
+	color: #333333;
+}
+/*标题*/
+.title_content {
+	text-align: center;
+	font-size: 0.42666666667rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.title_back {
+	position: absolute;
+	top: 0.37333333rem;
+	left: 0.32rem;
+	width: 0.26666667rem;
+	height: 0.48rem;
+}
+/*为你推荐的顾问*/
+.serching_shop_adviser {
+	text-align: center;
+	padding: 0.53333333rem 0;
+	font-size: 0.37333333rem;
+	color: #333333;
+}
+
+.line_p {
+	width: 0.93333333rem;
+	border-bottom: 1px solid #DFDFDD;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.serching_shop_adviser_p {
+	display: inline-block;
+	margin-left: 0.66666667rem;
+	margin-right: 0.66666667rem;
+}
+/*线条*/
+.line {
+	border-bottom: 1px solid #DDDDDD;
+	width: 9.70666667rem;
+	float: right;
+}
+
+/*全图线*/
+.line_all {
+	border-bottom: 1px solid #DDDDDD;
+	width: 10.70666667rem;
+	float: right;
+}
+
+/*间隔线*/
+.line_interval{
+	border-bottom: 0.24rem solid #efefef;
+}
+
+/*水平滚动*/
+.overflow_x_scroll{
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+/*水平居中*/
+.text_align_center{
+	text-align: center;
+}
+/*垂直居中*/
+.text_vertical_align{
+	vertical-align: middle;
+}
+/*隐藏*/
+.display_none{
+	display: none;
+}
+.display_inline_block{
+	display: inline-block;
+}
+/*单行行文字,多余的显示...*/
+.one_line_font{
+	display: inline-block;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/*两行文字,多余的显示...*/
+.two_line_font{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/*三行文字,多余的显示...*/
+.three_line_font{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.body-sty{
+	font-family: Hiragino Sans GB W3;
+}
+
+.clear_both{
+	clear: both;
+}
+.more-line-div{
+	word-break:break-all;
+}
+
+/*H5弹出框*/
+.model_bottom{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	display: block;
+	z-index: 500;
+}
+
+.pop{
+	position: fixed;
+	z-index: 1000;
+	width: 6rem;
+	height: 1rem;
+	background-color: #313131;
+	margin-left: 2rem;
+	top:50%;
+	right:0;
+	left:0;
+	bottom:0;
+	border: 1px;
+	border-radius: 0.1rem;
+	display: block;
+}
+
+.pop_font{
+	color: #FFFFFF;
+	font-size: 0.32rem;
+	text-align: center;
+	padding-top: 0.251rem
+}
+
+.iframe_container {
+	position: fixed;
+	z-index: 1040;
+	left: 0;
+	top: 0;
+	right: 0;
+    bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	-webkit-overflow-scrolling: touch;  
+    overflow-y: scroll;
+}
+.iframe_container iframe{
+	height: 100%;
+	width: 100%;
+}
